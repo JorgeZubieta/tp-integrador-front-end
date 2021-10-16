@@ -1,0 +1,17 @@
+#text-style{
+    color:greenyellow;
+}
+
+#header img{
+    width: 80px;
+    height: 40px;
+}
+
+#footer {
+    background-image: linear-gradient(160deg, #010135 0%, #02539a 100%);
+    ;
+}
+
+#footer a {
+    color: white;
+}
