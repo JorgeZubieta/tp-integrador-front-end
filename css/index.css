@@ -1,17 +1,42 @@
 #text-style{
-    color:greenyellow;
+    color:rgb(88, 136, 17);
 }
 
 #header img{
     width: 80px;
     height: 40px;
+    padding-left: 0px;
+}
+#header p{
+    color: whitesmoke;    
+    margin-bottom: 0px;
 }
 
 #footer {
-    background-image: linear-gradient(160deg, #010135 0%, #02539a 100%);
-    ;
+    background: linear-gradient(85deg, #1c3643, #273b47 25%, #24546e);
 }
 
 #footer a {
     color: white;
+}
+
+.carousel-caption{
+    margin-bottom: 90px;
+}
+
+.carousel-caption #green-button{
+    background: rgb(88, 136, 17);
+    color:white;
+    border-radius: 5px;
+}
+.carousel-caption #transparent-button{
+    background: transparent;
+    color:white;
+    border-radius: solid 5px;
+    border-color: whitesmoke;
+}
+
+.carousel-item{
+    background-color: rgba(0,0,0,1);
+
 }
