@@ -40,3 +40,15 @@
     background-color: rgba(0,0,0,1);
 
 }
+
+#octubre25 .mes{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#octubre25 img{
+    max-width: 100%;
+}
+#octubre25{
+    background-color: #353A40;
+    color: white;
+}
