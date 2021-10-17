@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Tp integrador Front-end</title>
 
     <!-- Bootstrap CSS -->
@@ -15,11 +15,10 @@
     <!-- header -->
     <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
-            <img src="imagenes/codoacodo.png" width="30" height="30" class="d-inline-block align-top" alt="logo codo a codo">
+            <img src="imagenes/codoacodo.png" width="50" height="30" class="d-inline-block align-top" alt="logo codo a codo">
         </a>
-        <p>
-            Conf Bs As
-        </p>
+        <p id="tex-conf">Conf Bs As</p>
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,7 +39,7 @@
                     <a class="nav-link" href="#">Convierte en orador</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="text-style" href="#">Comprar tickets</a>
+                    <a class="nav-link text-style" href="#">Comprar tickets</a>
                 </li>
             </ul>
         </div>
@@ -77,7 +76,7 @@
     <!--fin presentacion carrusel-->
     
     <!-- oradores -->
-    <section id="speakers" class="mt-4">
+    <section id="oradores" class="mt-4">
         <div class="container">
                 
             <div class="row">
@@ -149,13 +148,17 @@
     <!-- descripcion -->
 
     <!-- form -->
-    <section id="formulario" class="pt-3 pb-3 pl-5 pr-5">
+    <section id="formulario" class="pt-3 pb-3 ">
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <small>CONVIERTETE EN UN</small>
+                    <small>CONVIÉRTETE EN UN</small>
                     <h2>ORADOR</h2>
-                    <small>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</small>
+                    <small>Anótate como orador para dar una 
+                        <abbr data-toggle="tooltip" title="comentario">
+                            charla ignite
+                        </abbr>.
+                        Cuéntanos de qué quieres hablar!</small>
                 </div>
             </div>
 
@@ -171,10 +174,8 @@
             
             <div class="form-group">
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
+                <small>Recuerda incluir un título para tu charla.</small>
             </div>
-            
-            <p>Recuerda incluir un título para tu charla.</p>
-        
             <button type="submit" class="enviar-verde btn btn-block">Enviar</button>    
         </div>
     </section>
@@ -183,10 +184,7 @@
     <!-- footer -->
     <footer id="footer" class="pb-4 pt-4">
         <div class="container">
-            <!-- text-center alinea el texto al centro de cada columna  -->
             <div class="row text-center">
-                <!-- donde col-12 ocupa toda la fila en dispositivos chicos -->
-                <!-- y col-lg reparte el espacio de las columnas equitativamente para dispositivos grandes -->
                 <div class="col-12 col-lg m-auto">
                     <a href="#">Preguntas frecuentes</a>
                 </div>

@@ -1,5 +1,5 @@
-#text-style{
-    color:rgb(88, 136, 17);
+.text-style{
+    color:rgb(88, 136, 17) !important; 
 }
 
 #header img{
@@ -58,3 +58,14 @@
     border-radius: 5px;
     border-color: #96C93E;
 }
+
+#formulario{
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+#oradores{
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
