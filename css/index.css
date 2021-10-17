@@ -41,14 +41,14 @@
 
 }
 
-#octubre25 .mes{
-    padding-left: 0px;
-    padding-right: 0px;
-}
 #octubre25 img{
     max-width: 100%;
 }
 #octubre25{
     background-color: #353A40;
     color: white;
+    font-size: 70%;
+}
+#octubre25 a{
+    font-size: 90%;
 }
