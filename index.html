@@ -74,7 +74,7 @@
             </div>
         </div>    
     </section>
-    <!-- fin presentacion carrusel-->
+    <!--fin presentacion carrusel-->
     
     <!-- oradores -->
     <section id="speakers" class="mt-4">
@@ -137,7 +137,7 @@
                     <img src="imagenes/honolulu.jpg" alt="honolulu">
                 </div>
 
-                <div class="col-12 col-lg-6 pt-4">
+                <div class="col-12 col-lg-6 pt-4 pb-4">
                     <h3>Bs As - Octubre</h3>
                     <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).
                     </p>
@@ -149,30 +149,44 @@
     <!-- descripcion -->
 
     <!-- form -->
-    <h6>CONVIERTETE EN UN</h6>
-    <h2>ORADOR</h2>
-    <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
-    <h6></h6>
-    <h6></h6>
-    <div class="row">
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+    <section id="formulario" class="pt-3 pb-3 pl-5 pr-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <small>CONVIERTETE EN UN</small>
+                    <h2>ORADOR</h2>
+                    <small>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</small>
+                </div>
+            </div>
+
+            <div class="row  pt-3 pb-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                </div>
+
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
+            </div>
+            
+            <p>Recuerda incluir un título para tu charla.</p>
+        
+            <button type="submit" class="enviar-verde btn btn-block">Enviar</button>    
         </div>
-        <div class="col">
-            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
-        </div>
-    </div>
-    <div class="form-group">
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
-    </div>
-    <p>Recuerda incluir un título para tu charla.</p>
-    <button type="submit" class="btn btn-success">Enviar</button>
+    </section>
     <!-- fin form -->
 
     <!-- footer -->
-    <footer id="footer" class="pt-3 pb-3">
+    <footer id="footer" class="pb-4 pt-4">
         <div class="container">
-            <div class="footer-elements row">
+            <!-- text-center alinea el texto al centro de cada columna  -->
+            <div class="row text-center">
+                <!-- donde col-12 ocupa toda la fila en dispositivos chicos -->
+                <!-- y col-lg reparte el espacio de las columnas equitativamente para dispositivos grandes -->
                 <div class="col-12 col-lg m-auto">
                     <a href="#">Preguntas frecuentes</a>
                 </div>

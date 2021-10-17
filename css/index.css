@@ -25,7 +25,7 @@
 }
 
 .carousel-caption #green-button{
-    background: rgb(88, 136, 17);
+    background: #27A743;
     color:white;
     border-radius: 5px;
 }
@@ -38,7 +38,6 @@
 
 .carousel-item{
     background-color: rgba(0,0,0,1);
-
 }
 
 #octubre25 img{
@@ -51,4 +50,11 @@
 }
 #octubre25 a{
     font-size: 90%;
+}
+
+.enviar-verde{
+    background: #96C93E;
+    color:white;
+    border-radius: 5px;
+    border-color: #96C93E;
 }
