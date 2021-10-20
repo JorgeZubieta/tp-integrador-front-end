@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>tickets2021</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"       crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- header -->
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <p id="tex-conf">Conf Bs As</p>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- ml agrega margen a la izquierda y rrellena segun la pantalla -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">La conferencia <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Los oradores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">El lugar y la fecha</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Convierte en orador</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-style" href="#">Comprar tickets</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- fin header -->
+
+    <!-- Formulario -->
+    <section id="formulario-tickets">
+        <div class="container pt-4 pb-4">
+            <div class="row text-center pb-4">
+                <div class="azul col" >
+                    <h1>Estudiante</h1>
+                    <h2>Tiene un descuento</h2>
+                    <h2>80%</h2>
+                    <h3>*presentar documentación</h3>
+                </div>
+                <div class="verde col" >
+                    <h1>Trainee</h1>
+                    <h2>Tiene un descuento</h2>
+                    <h2>50%</h2>
+                    <h3>*presentar documentación</h3>
+                </div>
+                <div class="amarillo col" >
+                    <h1>Junior</h1>
+                    <h2>Tiene un descuento</h2>
+                    <h2>15%</h2>
+                    <h3>*presentar documentación</h3>
+                </div>
+            </div>
+
+            <form id="form-2">
+                <div class="row">
+                    <div class="col text-center text-uppercase pb-4">
+                        <h1>Venta</h1>
+                        <h2>Valor de ticket $200</h2>
+                    </div>
+                </div>   
+                
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Apellido">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="exampleFormControlInput1"></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
+                </div>
+    
+                <div class="row">
+                    <div class="col">
+                        <label for="form-categoria">Cantidad</label>
+                        <input type="text" class="form-control" placeholder="Cantidad">
+                    </div>
+                    
+                    <div class="col form-group">
+                        <label for="form-categoria">Categoría</label>
+                        <select class="form-control" id="form-categoria">
+                            <option>Estudiante</option>
+                            <option>Trainee</option>
+                            <option>Junior</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p class="total-p">Total a Pagar: $</p>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col">
+                        <p class="borrar">Borrar</p>
+                    </div>
+                    <div class="col">
+                        <p class="resumen">Resumen</p>
+                    </div>
+                </div>
+            </form>    
+        </div>
+    </section>
+    <!-- fin Formulario -->
+
+    <!-- footer -->
+    <footer id="footer" class="pb-4 pt-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 col-lg m-auto">
+                    <a href="#">Preguntas frecuentes</a>
+                </div>
+            
+                <div class="col-12 col-lg m-auto">
+                    <a href="#">Contáctanos</a>
+                </div>
+            
+                <div class="col-12 col-lg m-auto">
+                    <a href="#">Prensa</a>
+                </div>
+                
+                <div class="col-12 col-lg m-auto">
+                    <a href="#">Conferencias</a>
+                </div>
+            
+                <div class="col-12 col-lg m-auto">
+                    <a href="#">Términos y condiciones</a>
+                </div>
+            
+                <div class="col-12 col-lg m-auto">
+                    <a href="#">Privacidad</a>
+                </div>
+            
+                <div class="col-12 col-lg m-auto">
+                    <a href="#">Estudiantes</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

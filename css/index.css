@@ -69,3 +69,30 @@
     padding-left: 5rem;
 }
 
+/* Estilo Tickets */
+.total-p{
+background-color:#CCE5FF;
+padding: 10px 10px;
+border-radius: 5px;
+}
+
+.azul, .verde, .amarillo{
+    margin: 5px 5px;  
+}
+
+.azul{
+    border: blue solid 1px;  
+}
+.verde{
+    border: rgb(1, 110, 16) solid 1px;
+}
+.amarillo{
+    border: rgb(239, 243, 1) solid 1px;
+}
+
+.borrar, .resumen{
+    border-radius: 5px;
+    background: #97C93E;
+    color: white;
+    padding: 5px 5px;
+}
