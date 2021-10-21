@@ -59,32 +59,29 @@
     border-color: #96C93E;
 }
 
-
 #oradores{
     padding-right: 5rem;
     padding-left: 5rem;
 }
 
 /* Estilo Tickets */
+.container-tickets{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.titulo-ticket{
+    padding-top: 15px;
+}
+
 .total-p{
 background-color:#CCE5FF;
 padding: 10px 10px;
 border-radius: 5px;
 }
 
-.container-t{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* text-align: center; */
-    /* box-sizing: content-box; */
-    width: 500px;
-    /* min-width: 500px; */
-    height: 150px;
-} 
-
 .azul, .verde, .amarillo{
     text-align:center;
-    /* align-content:space-between; */
 }
 
 .azul {
