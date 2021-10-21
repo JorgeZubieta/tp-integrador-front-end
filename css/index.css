@@ -84,15 +84,7 @@ border-radius: 5px;
 
 .azul, .verde, .amarillo{
     text-align:center;
-    justify-content: space-between;
-    margin: 5px 5px;
-
-    /* height: 200px;
-    width: 200px; */
-}
-
-.amarillo {
-    font-size: 100%;
+    /* align-content:space-between; */
 }
 
 .azul {
@@ -103,6 +95,13 @@ border-radius: 5px;
 }
 .amarillo{
     border: rgb(239, 243, 1) solid 1px;
+}
+
+.venta{
+    font-size: 80%;
+}
+.venta-ticket{
+    font-size: 150%;
 }
 
 .borrar, .resumen{
