@@ -59,10 +59,6 @@
     border-color: #96C93E;
 }
 
-#formulario{
-    padding-left: 15rem;
-    padding-right: 15rem;
-}
 
 #oradores{
     padding-right: 5rem;
@@ -76,11 +72,30 @@ padding: 10px 10px;
 border-radius: 5px;
 }
 
+.container-t{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* text-align: center; */
+    /* box-sizing: content-box; */
+    width: 500px;
+    /* min-width: 500px; */
+    height: 150px;
+} 
+
 .azul, .verde, .amarillo{
-    margin: 5px 5px;  
+    text-align:center;
+    justify-content: space-between;
+    margin: 5px 5px;
+
+    /* height: 200px;
+    width: 200px; */
 }
 
-.azul{
+.amarillo {
+    font-size: 100%;
+}
+
+.azul {
     border: blue solid 1px;  
 }
 .verde{
