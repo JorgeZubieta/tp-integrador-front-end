@@ -13,15 +13,17 @@ function mat(){
     switch(valorseleccionado){
         case 1:
             total=(cant*200)-( ((cant*200)*80)/100 );
-            document.getElementById("total").value=total;
+            // document.getElementById("total").value=total;
             break;
         case 2:
             total=(cant*200)-( ((cant*200)*50)/100 );
-            document.getElementById("total").value=total;
+            // document.getElementById("total").value=total;
             break;
         case 3:
             total=(cant*200)-( ((cant*200)*15)/100 );
-            document.getElementById("total").value=total;
+            // document.getElementById("total").value=total;
             break;
     }
+    document.getElementById("total").value="  Total a Pagar: $ " + total;
+
 }
