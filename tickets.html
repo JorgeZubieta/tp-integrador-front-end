@@ -83,7 +83,7 @@
                 </div>   
                 
                 <div class="row">
-                    <div class="col-lg col-md-12 mb-2">
+                    <div class="col-lg col-md-12">
                         <input type="text" class="form-control" placeholder="Nombre">
                     </div>
                     <div class="col-lg col-md-12">
@@ -99,31 +99,32 @@
                 <div class="row">
                     <div class="col-lg mb-2">
                         <label for="form-categoria">Cantidad</label>
-                        <input type="text" class="form-control" placeholder="Cantidad">
+                        <input type="number" id="cantidad" class="form-control" placeholder="Cantidad">
                     </div>
                     
                     <div class="col form-group">
                         <label for="form-categoria">Categoría</label>
-                        <select class="form-control" id="form-categoria">
-                            <option>Estudiante</option>
-                            <option>Trainee</option>
-                            <option>Junior</option>
+                        <select id="categoria" class="form-control">
+                            <option value="1">Estudiante</option>
+                            <option value="2">Trainee</option>
+                            <option value="3">Junior</option>
                         </select>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col">
-                        <p class="total-p">Total a Pagar: $</p>
+                    <div class="total-p col-lg col-md-12">
+                        <input type="text" id="total" placeholder="  Total a Pagar: $ ">
                     </div>
                 </div>
 
                 <div class="row text-center">
-                    <div class="col">
-                        <p class="borrar">Borrar</p>
+                    <div class="col-lg col-md-12">
+                        <button class="borrar" type="button" >Borrar</button>
                     </div>
-                    <div class="col">
-                        <p class="resumen">Resumen</p>
+                    
+                    <div class="col-lg col-md-12">
+                        <button class="resumen" type="button" id="resumen" onclick="mat();">Resumen</button>
                     </div>
                 </div>
             </form>    
@@ -172,6 +173,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>

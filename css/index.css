@@ -75,9 +75,16 @@
 }
 
 .total-p{
-background-color:#CCE5FF;
 padding: 10px 10px;
 border-radius: 5px;
+}
+#total{
+    background-color:#CCE5FF;
+    border-color: transparent;
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .azul, .verde, .amarillo{
@@ -85,13 +92,13 @@ border-radius: 5px;
 }
 
 .azul {
-    border: blue solid 1px;  
+    border: #2E92FF solid 2px;  
 }
 .verde{
-    border: rgb(1, 110, 16) solid 1px;
+    border: #22A6BA solid 2px;
 }
 .amarillo{
-    border: rgb(239, 243, 1) solid 1px;
+    border: #FBC41F solid 2px;
 }
 
 .venta{
@@ -105,5 +112,10 @@ border-radius: 5px;
     border-radius: 5px;
     background: #97C93E;
     color: white;
-    padding: 5px 5px;
+    padding: 4px;
+    margin-top: 10px;
+    width: 100%;
+    border-color: transparent;
 }
+
+
